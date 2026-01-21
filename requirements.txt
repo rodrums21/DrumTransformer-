@@ -1,0 +1,7 @@
+pretty_midi
+datasets
+transformers
+miditok
+pydub
+pygame
+mido

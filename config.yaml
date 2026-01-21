@@ -1,0 +1,19 @@
+paths:
+  drive_path: '/content/drive/MyDrive/Proyecto Maestría/BaseSint/Normalizada_120'
+  model_save_path: '/content/drive/MyDrive/Proyecto Maestría/500 - 9 eps/saved_model_digitpt2_9_500'
+  
+training:
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  learning_rate: 5e-5
+  num_epochs: 9
+  fp16: true
+  
+generation:
+  temperature: 0.75
+  top_k: 50
+  max_length: 333
+  
+data:
+  window_size: 500
+  train_split: 0.8
